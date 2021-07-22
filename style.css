@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+.bg {
+    /* The image used */
+    background-image: url("beach.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.snorkel {
+    /* The image used */
+    background-image: url("snorkel.png");   
+}  
+
+.cover {
+    position: absolute;
+    top: 38%;
+    left: 34.8%;
+    height: 600px;
+    padding: 1px;
+    background-color:#727272;
+    animation: movingPic infinite 2s ease-in-out;
+}
