@@ -19,14 +19,9 @@ body, html {
 .snorkel {
     /* The image used */
     background-image: url("snorkel.png");   
-}  
-
-.cover {
-    position: absolute;
-    top: 38%;
-    left: 34.8%;
     height: 600px;
     padding: 1px;
-    background-color:#727272;
     animation: movingPic infinite 2s ease-in-out;
-}
+    background-repeat: no-repeat;
+}  
+
