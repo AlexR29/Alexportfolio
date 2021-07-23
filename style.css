@@ -25,3 +25,46 @@ body, html {
     background-repeat: no-repeat;
 }  
 
+.border{
+    border-style: solid;
+    border-width: 5px;
+}
+
+.level1{
+    /* The image used */
+    background-image: url("sunlightzone.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.level2 {
+    /* The image used */
+    background-image: url("level2.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.level3 {
+    /* The image used */
+    background-image: url("level3.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
